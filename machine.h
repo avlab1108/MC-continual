@@ -1,0 +1,2 @@
+#define IBM_RISC
+#define CLOCK_PER_SEC 1000000
