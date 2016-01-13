@@ -1,0 +1,48 @@
+1             $ npm     : number of dendrimers in the system
+1              : number of generations
+202              $ lpm     : overall number of units in dendrimers
+0             $ nlpm     : number of linear polimers in the system (o.f.m.)
+0             $ llpm     : lenght of linear polimers in the system (o.f.m.)
+256          $ Nmono	: overall number of monomer units in linked objects
+0          $ Nch		 : number of charged units of dendrimers
+0          $ Nobst   : number of the obstacles
+600000        $ mcsmax  : maximum time in mcs
+1             : Nrun    : number of runs
+256.           $ sysi    : side length of system box, i.e. system size
+1.5	 	 $ temp    : temperature
+1.0           : range   : interaction range (sets also maximum bond length)
+0.25           : hvar    : step length for monomer moves ( < range)
+10.0          : spring  : spring constant for bonds
+0.1           : u0      : strength of monomer-monomer interaction
+0          : uhydro      : strength of Hydrogen bond
+1       : thydro      : time between creation of Hydrogen bonds
+0       : ucentr      : strength of central interaction
+0		:us0:	rigidity coef in dendrimers
+0		:us1:	rigidity coef elsewhere20
+1		:rmin_group:	minimum in potencial for first level of interaction
+0		:group_cont:	energy of contacts between groups of monomers
+32		:clasterNum:	number of clasters
+0		: bjerrum : bjerrum length
+0.4           : bmin    : minimum bond length
+1.0           : bmax    : maximum bond length
+3             : dim     : dimension
+180722          : iseed   : great number, can be 4711 for example
+position.txt  $ fin1    : the input file with coordinates of the monomers
+counter.txt	  $ fin2	: counterions coordinates input file
+bonds.txt  $ fin3	: bonds input file
+position.txt    $ fout1   : the outfile for the monomers
+res.dat    $ fout2   : the data file (output data)
+distrib.dat	  $ fout3	: distrib function output file
+final.vrml $ fout4	: final vrml scene
+start.vrml $ fout5	: initial vrml scene
+TensorOfInertia.dat		$ fout6	:tensor of inertia
+StrFuct.dat		$ fout7 : structure factor
+etaLoc.dat		$ fout8 : local orientation
+orderPar.dat		$ fout9 : order_parameter
+2048          : irange
+9860000		  $ Cmsr    : the measure step
+100000        : Maxtry  : only for RAN
+800.0         : Emax    : only for RAN
+3			  : react	: reaction rank (maximum 6)
+3			  : hydro_react	: hydrogen reaction rank
+8388608			: charge jump step
